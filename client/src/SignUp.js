@@ -8,6 +8,7 @@ class SignUp extends React.Component {
   render(){
     return (
       <div className='body'>
+        <Button> SignUp </Button>
         <Row className='sign-up-title'>
         Sign Up
         </Row>
