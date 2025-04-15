@@ -20,6 +20,22 @@
   font-size: 17.5px
 }
 
+.create-button-style{
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 40px;
+  font-weight: 700;
+  font-size: 17.5px
+}
+
+.back-button-style{
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 10px;
+  font-weight: 700;
+  font-size: 17.5px
+}
+
 .input{
   margin: 5px;
   width: 300px;

@@ -2,13 +2,14 @@ import React from 'react';
 import {Row, Input, Label, Button} from 'reactstrap';
 import "./App.css";
 import addPhoto from "./addphoto.png";
+import BackButton from './BackButton';
 
 class SignUp extends React.Component {
 
   render(){
     return (
       <div className='body'>
-        <Button> SignUp </Button>
+        <BackButton></BackButton>
         <Row className='sign-up-title'>
         Sign Up
         </Row>
@@ -46,6 +47,7 @@ class SignUp extends React.Component {
           <Input id='password'className='input'>
           </Input>
         </Row>
+        <Button className='create-button-style'> Create Account </Button>
       </div>
     );
   }
